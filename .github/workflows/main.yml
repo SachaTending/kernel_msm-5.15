@@ -128,6 +128,7 @@ jobs:
           CONFIG_TMPFS_XATTR=y
           CONFIG_TMPFS_POSIX_ACL=y
           CONFIG_IR_SPI=m
+          CONFIG_CUSE=m
           EOF
 
       - name: "🔧 Setup ReSukiSU"
